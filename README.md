@@ -9,10 +9,12 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
 
+
 TEAM ROLES 
 - Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic. 
 - Database Administrator: Manages database design, indexing, and optimizations.                                                                         - DevOps Engineer: Handles deployment, monitoring, and scaling of backend services.
 - QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards. 
+
 
 
 TECHNOLOGY STACK
@@ -25,12 +27,15 @@ TECHNOLOGY STACK
 - CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
 
+
 DATABASE DESIGN 
 - Users: Can either be a host or a guest, can make multiple bookings and can have multiple properties. 
 - Properties: This belongs to one user, can have many bookings and can have many reviews. 
 - Bookings: It's made by a user, it has one payment and belongs to a property owner/host.
 - Reviews: it is submitted by a user, it talks about the users experience of a property and it belongs to one booking.
 - Payments: it's made by a user; it confirms your go ahead on the chosen property and it belongs to a booking.
+
+
 
 FEATURE BREAKDOWN
 - API Documentation
@@ -60,6 +65,7 @@ Features: Guards against threats such as SQL injection, XSS, and CSRF attacks. I
 Features: Helps protect against DDoS attacks, excessive usage, and brute-force attempts. It also ensures fair and stable system performance for all users.
 - CI/CD Pipeline Integration
 Features: Automatically runs tests, builds, and deployments upon code changes. It also ensures quick feedback, consistent quality, and faster release cycles.
+
 
 
 API SECURITY
